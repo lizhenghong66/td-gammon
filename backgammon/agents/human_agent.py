@@ -29,7 +29,7 @@ class HumanAgent(object):
                     print ('Bad format enter e.g. "3,4"')
                 else:
                     break
-            if len(moves) > 0 and len(list(moves)[0]) >3:
+            if len(moves) > 0 and len(list(moves)[0]) >=3:
                 while True:
                     mv3 = input('Please enter a third move (enter to skip): ')
                     if mv3 == '':
