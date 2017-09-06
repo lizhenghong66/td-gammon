@@ -63,6 +63,7 @@ class Game:
         return (random.randint(1, self.die), random.randint(1, self.die))
 
     def play(self, players, draw=False):
+        self.clear_screen()
         player_num = random.randint(0, 1)
         while not self.is_over():
             self.next_step(players[player_num], player_num, draw=draw)
@@ -326,6 +327,13 @@ class Game:
             print (" "+self.grid[col][i],end=' ')
         else:
             print ("  ",end=' ')
+
+    @staticmethod
+    def clear_screen():
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
 
     def draw(self):
         #os.system('clear')

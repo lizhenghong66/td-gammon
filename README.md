@@ -36,3 +36,5 @@ https://en.wikipedia.org/wiki/Backgammon
 
 遗留问题：
     目前这个游戏玩法不完全合乎规则，棋子移动方向都是顺时针（己方移动应该逆时针，但对方棋子移动是正确的），仅仅作为人工智能（增强学习）用例还是不错。
+
+![屏幕截图](td-backgammon-screen.png)
