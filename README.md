@@ -29,7 +29,7 @@ https://en.wikipedia.org/wiki/Backgammon
 
 经过简单修改，该游戏可以在python 3（测试环境是win python 3.6.1）和tensorflow 1.0以上（测试环境 tensorflow 1.3) 上运行。
 
-主页解决的问题：
+主要解决的问题：
 1. 在python3 环境打印棋盘格式调整
 2. humanAgent 在特殊情况下不能继续游戏（如两个骰子数相同时，需要4步移动，特殊情况下只能3步合法移动）
 3. tensorflow 1.0以上的语法修正。
